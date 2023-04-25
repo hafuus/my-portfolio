@@ -22,17 +22,17 @@ function Header() {
             <Navbarmenu class = "pb-24"/>
         </div>
         <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 pl-24" id="navbar-sticky">
-          <div class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-              <Link to = "/" className="inline-block py-2 px-4 text-black font-bold no-underline"> Home </Link>
+          <div class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 ">
+              <Link to = "/" className="inline-block py-2 px-4 dark:text-white text-black font-bold no-underline"> Home </Link>
                   </div>
                   <div className="mr-3">
-                    <Link to = "/resume" className="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4">resume</Link>
+                    <Link to = "/resume" className="inline-block dark:text-white text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4">resume</Link>
                   </div>
                   <div className="mr-3">
-                    <Link to ="projects" className="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4">projects</Link>
+                    <Link to ="projects" className="inline-block dark:text-white text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4">projects</Link>
                   </div>
                   <div className="mr-3">
-                    <Link to = "/contact" className="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" >contact</Link>
+                    <Link to = "/contact" className="inline-block dark:text-white text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" >contact</Link>
                   </div>
 
               

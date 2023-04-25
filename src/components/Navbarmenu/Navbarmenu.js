@@ -9,11 +9,11 @@ const [toggleMenu, setToggleMenu] = React.useState(false);
     return (
         <div>
             <div className="app__navbar-smallscreen ">
-        <GiHamburgerMenu className=' md:invisible'  fontSize={27} onClick={() => setToggleMenu(true)} />
+        <GiHamburgerMenu className=' md:invisible text-white'  fontSize={27} onClick={() => setToggleMenu(true)} />
         {toggleMenu && (
           <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
-            <MdOutlineCake fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
-            <div className="app__navbar-smallscreen_links flex flex-col">
+            <MdOutlineCake fontSize={27} className="overlay__close text-white" onClick={() => setToggleMenu(false)} />
+            <div className="app__navbar-smallscreen_links flex flex-col dark:text-white">
               <Link to = "/" onClick={() => setToggleMenu(false)}>Home</Link>
               <Link to = "/Resume" onClick={() => setToggleMenu(false)}> Resume </Link>
               <Link to = "/Projects" onClick={() => setToggleMenu(false)}>projects</Link>
