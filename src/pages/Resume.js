@@ -16,7 +16,7 @@ function Resume() {
                 <div className="pl-7 space-y-0.5">
                     <h3 className=" text-blacks text-lg">Abaarso Tech University</h3>
                     <p className="text-gray-800 text-base">Software Engineering</p>
-                    <p className="text-xs text-gray-600">2017 - 2021</p>
+                    <p className="text-xs text-gray-600">Nov 2021 - Oct 2024</p>
                 </div>
 
                 <div className="pl-7 space-y-0.5 pt-10">
