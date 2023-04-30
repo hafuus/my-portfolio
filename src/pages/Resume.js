@@ -6,7 +6,7 @@ function Resume() {
 
       return (
         <div >
-            <a href="assets/resume semi.pdf" download>
+            <a href="assets/Resume.pdf" download>
                 <button className=" mt-28 md:ml-36  flex mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full p-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                     <MdDownload size={20}/> Download my Resume</button>
               </a>
