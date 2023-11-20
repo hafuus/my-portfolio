@@ -4,22 +4,22 @@ function Skills() {
     const skills = [
         {
           logo: "logo-html5",
-          level: "html, CSS, JS",
+          level: "Node,MongoDB",
           count: 93,
         },
         {
           logo: "logo-css3",
-          level: "React.js",
+          level: "SQL databases",
           count: 85,
         },
         {
           logo: "logo-nodejs",
-          level: "Node, MongoDB",
+          level: "PHP",
           count: 82,
         },
         {
           logo: "logo-react",
-          level: "PHP, MySQL",
+          level: "React,Tailwind CSS",
           count: 50,
         },
       ];

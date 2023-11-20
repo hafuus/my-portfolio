@@ -6,10 +6,16 @@ function Resume() {
 
       return (
         <div >
-            <a href="assets/Resume.pdf" download>
+            {/* <a href="assets/Resume.pdf" download>
                 <button className=" mt-28 md:ml-36  flex mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full p-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                     <MdDownload size={20}/> Download my Resume</button>
-              </a>
+              </a> */}
+               <a href="assets/Resume7.pdf">
+                <button className="mt-28 md:ml-36 p-2 btn btn-gray inline-flex items-center bg-gray-800 text-white hover:bg-gray-900 rounded-lg">
+                    <MdDownload className="mr-2" /> Download my Resume
+                </button>
+                </a>
+
 
             <div className="md:pl-48 pl-10 rounded-sm pt-12">
                 <h2 className="text-2xl font-semibold text-cyan-800 pb-5 font-bold">Education Background</h2>

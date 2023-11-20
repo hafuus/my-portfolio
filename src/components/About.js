@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom"
+import { MdVisibility } from 'react-icons/md';
+
 
 function About() {
   return (
@@ -17,9 +19,17 @@ function About() {
               I believe that collaboration and open communication are key to success, and I am excited to work with clients and team members
                to bring their ideas to life on the web.
 </p>
-<Link to = "/resume" className ="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 md:py-4 md:px-8 px-16 py-2 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out lg:ml-80 ">
+{/* <Link to = "/resume" className ="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 md:py-4 md:px-8 px-16 py-2 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out lg:ml-80 ">
             view my profile
-          </Link>
+          </Link> */}
+         <Link
+      to="/resume"
+      className=" mx-auto lg:mx-96 my-6 md:py-4 md:px-8 py-2 rounded-lg btn bg-gray-800 text-white inline-flex items-center justify-center transition duration-300 ease-in-out transform hover:bg-gray-900 hover:text-white focus:outline-none focus:shadow-outline-blue active:transform active:scale-95 "
+    >
+      <MdVisibility className="mr-2" />
+      View My Profile
+    </Link>
+
 </div>
 
  </div>
